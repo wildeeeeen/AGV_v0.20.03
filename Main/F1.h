@@ -986,10 +986,8 @@ void doAction_LiftOn(){
   Serial2.write(0xff);
   Serial2.write(0xff);
 
-  // ini lempar ke ke PIN X aja
-  
+  // ini lempar ke ke PIN X aja  
   delay(5000);
-
   
   Serial2.print("tF1BNextAction.bco=");
   Serial2.print(65504);
@@ -1019,7 +1017,7 @@ void doAction_LiftOff(){
   Serial2.write(0xff);
 
   // ini lempar ke ke PIN X aja
-  delay(5000);
+  delay(1000);
 
   Serial2.print("tF1BNextAction.bco=");
   Serial2.print(65504);
